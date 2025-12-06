@@ -33,7 +33,7 @@ def interact_with_agent(message, history):
 
 # 3. User Interface
 with gr.Blocks(title="Adaptive Agent") as demo:
-	gr.Markdown("# 🦎 Adaptive AI Agent (Internship Prototype)")
+	gr.Markdown("# 🦎 Adaptive AI Agent")
 	gr.Markdown(
 		"> **Context:** This prototype demonstrates an agent's ability to **infer implicit preferences** (technical level) and **adapt its strategy** in real-time.")
 
