@@ -45,7 +45,7 @@ Ensure you have **Python 3.9+** and **Ollama** installed on your machine.
 
 ### 2. Clone the Repository
 ```bash
-git clone [https://github.com/quentinbch/adaptive-support-agent.git](https://github.com/quentinbch/adaptive-support-agent.git)
+git clone https://github.com/quentinbch/adaptive-support-agent.git
 cd adaptive-support-agent
 ```
 ### 3. Install Dependencies
