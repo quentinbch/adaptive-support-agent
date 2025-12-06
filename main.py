@@ -18,7 +18,7 @@ def interact_with_agent(message, history):
 
 
 # 3. UI Layout
-with gr.Blocks(title="Adaptive Agent Demo", theme=gr.themes.Soft()) as demo:
+with gr.Blocks(title="Adaptive Agent Demo") as demo:
 	gr.Markdown("# 🦎 Adaptive AI Agent")
 	gr.Markdown(
 		"> **Context:** This prototype demonstrates an agent's ability to **infer implicit preferences** (technical level) and **adapt its strategy** in real-time.")
@@ -26,7 +26,7 @@ with gr.Blocks(title="Adaptive Agent Demo", theme=gr.themes.Soft()) as demo:
 	with gr.Row():
 		# Left Column: Chat Interface
 		with gr.Column(scale=2):
-			chatbot = gr.Chatbot(label="Support Session", height=450, bubble_full_width=False)
+			chatbot = gr.Chatbot(label="Support Session", height=450)
 			msg = gr.Textbox(label="Your Message",
 			                 placeholder="Try: 'The screen is black...' vs '500 Error on API endpoint...'")
 			clear_btn = gr.Button("New Session")
